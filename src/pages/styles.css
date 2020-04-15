@@ -6,6 +6,11 @@
   min-height: 100vh;
 }
 
+.dark-container {
+  background-color: #000;
+  color: #fff;
+}
+
 .title {
   font-family: "Playfair Display";
   font-size: 4rem;
@@ -29,4 +34,39 @@
   font-size: 1.2rem;
   position: relative;
   top: 200px;
+}
+
+.dark-container > .title {
+  font-size: 3rem;
+  font-family: "Playfair Display";
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-family: "Questrial";
+  font-size: 1.8rem;
+  margin: 20px 0;
+}
+
+section.small {
+  height: 70vh;
+}
+
+section.small > .title {
+  font-size: 3rem;
 }

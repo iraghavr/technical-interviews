@@ -16,6 +16,13 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://emmabostian.us19.list-manage.com/subscribe/post?u=c1b6d709508ce9c50a34b2a23&amp;id=b231a49662",
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
