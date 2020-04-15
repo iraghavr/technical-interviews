@@ -55,6 +55,14 @@ body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
+  font-family: "Questrial";
+}
+
+p {
+  font-size: 22px;
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
 }
 
 li {
@@ -65,6 +73,7 @@ li {
 
 section.small {
   height: 70vh;
+  padding: 30px;
 }
 
 section.small > .title {

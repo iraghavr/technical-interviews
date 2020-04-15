@@ -25,6 +25,10 @@ const IndexPage = () => (
     </section>
     <section className="small">
       <h2 className="title">Get notified</h2>
+      <p>
+        Want updates on the status of the E-book? Sign up for the mailing list!
+        I promise I won't spam you!
+      </p>
       <SignUpForm />
     </section>
   </main>
