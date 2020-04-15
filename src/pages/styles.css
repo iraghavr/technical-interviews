@@ -1,0 +1,32 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-family: "Playfair Display";
+  font-size: 4rem;
+  text-align: center;
+  margin: 12px 0;
+}
+
+.subtitle {
+  font-family: "Questrial";
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.coming-soon {
+  font-family: "Questrial";
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 100;
+  font-size: 1.2rem;
+  position: relative;
+  top: 200px;
+}
