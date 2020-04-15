@@ -77,11 +77,9 @@
   margin-bottom: 12px;
 }
 
-@media (max-width: 1330px) {
-  .signUp {
-    border: none;
-    padding-right: 0;
-    margin-bottom: 100px;
-    height: auto;
+@media (max-width: 400px) {
+  .signUpForm__group {
+    max-width: 95vw;
+    margin-bottom: 24px;
   }
 }
